@@ -1,0 +1,17 @@
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Application\bin\Debug\net5.0\RestApiDecomposeNumber.Application.deps.json
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Application\bin\Debug\net5.0\RestApiDecomposeNumber.Application.dll
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Application\bin\Debug\net5.0\ref\RestApiDecomposeNumber.Application.dll
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Application\bin\Debug\net5.0\RestApiDecomposeNumber.Application.pdb
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Application\obj\Debug\net5.0\RestApiDecomposeNumber.Application.csproj.AssemblyReference.cache
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Application\obj\Debug\net5.0\RestApiDecomposeNumber.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Application\obj\Debug\net5.0\RestApiDecomposeNumber.Application.AssemblyInfoInputs.cache
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Application\obj\Debug\net5.0\RestApiDecomposeNumber.Application.AssemblyInfo.cs
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Application\obj\Debug\net5.0\RestApiDecomposeNumber.Application.csproj.CoreCompileInputs.cache
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Application\obj\Debug\net5.0\RestApiDecomposeNumber.Application.dll
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Application\obj\Debug\net5.0\ref\RestApiDecomposeNumber.Application.dll
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Application\obj\Debug\net5.0\RestApiDecomposeNumber.Application.pdb
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Application\bin\Debug\net5.0\RestApiDecomposeNumber.Domain.Core.dll
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Application\bin\Debug\net5.0\RestApiDecomposeNumber.Domain.dll
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Application\bin\Debug\net5.0\RestApiDecomposeNumber.Domain.Core.pdb
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Application\bin\Debug\net5.0\RestApiDecomposeNumber.Domain.pdb
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Application\obj\Debug\net5.0\RestApiDecomposeNumber.Application.csproj.CopyComplete

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.2.0" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RestApiDecomposeNumber.Application\RestApiDecomposeNumber.Application.csproj" />
+    <ProjectReference Include="..\RestApiDecomposeNumber.Domain.Core\RestApiDecomposeNumber.Domain.Core.csproj" />
+    <ProjectReference Include="..\RestApiDecomposeNumber.Domain.Services\RestApiDecomposeNumber.Domain.Services.csproj" />
+    <ProjectReference Include="..\RestApiDecomposeNumber.Domain\RestApiDecomposeNumber.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

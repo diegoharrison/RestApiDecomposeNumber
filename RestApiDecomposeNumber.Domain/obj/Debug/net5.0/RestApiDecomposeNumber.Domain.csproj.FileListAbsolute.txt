@@ -1,0 +1,12 @@
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain\bin\Debug\net5.0\RestApiDecomposeNumber.Domain.deps.json
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain\bin\Debug\net5.0\RestApiDecomposeNumber.Domain.dll
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain\bin\Debug\net5.0\ref\RestApiDecomposeNumber.Domain.dll
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain\bin\Debug\net5.0\RestApiDecomposeNumber.Domain.pdb
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain\obj\Debug\net5.0\RestApiDecomposeNumber.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain\obj\Debug\net5.0\RestApiDecomposeNumber.Domain.AssemblyInfoInputs.cache
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain\obj\Debug\net5.0\RestApiDecomposeNumber.Domain.AssemblyInfo.cs
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain\obj\Debug\net5.0\RestApiDecomposeNumber.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain\obj\Debug\net5.0\RestApiDecomposeNumber.Domain.dll
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain\obj\Debug\net5.0\ref\RestApiDecomposeNumber.Domain.dll
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain\obj\Debug\net5.0\RestApiDecomposeNumber.Domain.pdb
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain\obj\Debug\net5.0\RestApiDecomposeNumber.Domain.csproj.AssemblyReference.cache

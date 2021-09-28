@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "RestApiDecomposeNumber.Domain.Core/1.0.0": {
+        "dependencies": {
+          "RestApiDecomposeNumber.Domain": "1.0.0"
+        },
+        "runtime": {
+          "RestApiDecomposeNumber.Domain.Core.dll": {}
+        }
+      },
+      "RestApiDecomposeNumber.Domain/1.0.0": {
+        "runtime": {
+          "RestApiDecomposeNumber.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RestApiDecomposeNumber.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RestApiDecomposeNumber.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vq2r4b43tg73fL7sS6qhUENLGxituTOwFf9j41JN8km0uvLtsjGzn703Dxrn05vZdDUbaoIW9yzzL1RGN/u9nA==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\RestApiDecomposeNumber\\RestApiDecomposeNumber.API\\RestApiDecomposeNumber.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

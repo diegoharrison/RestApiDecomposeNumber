@@ -1,0 +1,17 @@
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain.Services\bin\Debug\net5.0\RestApiDecomposeNumber.Domain.Services.deps.json
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain.Services\bin\Debug\net5.0\RestApiDecomposeNumber.Domain.Services.dll
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain.Services\bin\Debug\net5.0\ref\RestApiDecomposeNumber.Domain.Services.dll
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain.Services\bin\Debug\net5.0\RestApiDecomposeNumber.Domain.Services.pdb
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain.Services\bin\Debug\net5.0\RestApiDecomposeNumber.Domain.Core.dll
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain.Services\bin\Debug\net5.0\RestApiDecomposeNumber.Domain.dll
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain.Services\bin\Debug\net5.0\RestApiDecomposeNumber.Domain.Core.pdb
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain.Services\bin\Debug\net5.0\RestApiDecomposeNumber.Domain.pdb
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain.Services\obj\Debug\net5.0\RestApiDecomposeNumber.Domain.Services.csproj.AssemblyReference.cache
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain.Services\obj\Debug\net5.0\RestApiDecomposeNumber.Domain.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain.Services\obj\Debug\net5.0\RestApiDecomposeNumber.Domain.Services.AssemblyInfoInputs.cache
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain.Services\obj\Debug\net5.0\RestApiDecomposeNumber.Domain.Services.AssemblyInfo.cs
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain.Services\obj\Debug\net5.0\RestApiDecomposeNumber.Domain.Services.csproj.CoreCompileInputs.cache
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain.Services\obj\Debug\net5.0\RestApiDecomposeNumber.Domain.Services.csproj.CopyComplete
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain.Services\obj\Debug\net5.0\RestApiDecomposeNumber.Domain.Services.dll
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain.Services\obj\Debug\net5.0\ref\RestApiDecomposeNumber.Domain.Services.dll
+C:\Projects\RestApiWithDDD\RestApiDecomposeNumber.Domain.Services\obj\Debug\net5.0\RestApiDecomposeNumber.Domain.Services.pdb
