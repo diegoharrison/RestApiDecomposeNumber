@@ -1,6 +1,6 @@
 ﻿namespace RestApiDecomposeNumber.Domain.Entitys
 {
-    public class Number
+    public class Number : Base
     {
         public int? Id { get; set; }
     }

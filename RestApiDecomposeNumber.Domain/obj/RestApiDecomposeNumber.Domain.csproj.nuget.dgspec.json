@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\RestApiDecomposeNumber.Domain.csproj": {}
+    "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\RestApiDecomposeNumber.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\RestApiDecomposeNumber.Domain.csproj": {
+    "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\RestApiDecomposeNumber.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\RestApiDecomposeNumber.Domain.csproj",
+        "projectUniqueName": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\RestApiDecomposeNumber.Domain.csproj",
         "projectName": "RestApiDecomposeNumber.Domain",
-        "projectPath": "C:\\Projects\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\RestApiDecomposeNumber.Domain.csproj",
+        "projectPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\RestApiDecomposeNumber.Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\obj\\",
+        "outputPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,12 +39,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Autofac": {
-              "target": "Package",
-              "version": "[6.2.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

@@ -14,9 +14,9 @@ namespace RestApiDecomposeNumber.Infrastructure.Data
 
         public SqlContext(DbContextOptions<SqlContext> options) : base(options) { }
 
-        public DbSet<User> User { get; set; }
+        public DbSet<User> Users { get; set; }
 
-        public DbSet<Number> Number { get; set; }
+        public DbSet<Number> Numbers { get; set; }
 
         public override int SaveChanges()
         {

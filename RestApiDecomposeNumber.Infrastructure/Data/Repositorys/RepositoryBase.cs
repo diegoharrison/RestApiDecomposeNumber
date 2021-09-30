@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace RestApiDecomposeNumber.Infrastructure.Data.Repositorys
 {
-    public class RepositoryBase<T> : IRepositoryBase<T> where T : class
+    public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : class
     {
         private readonly SqlContext sqlContext;
 
@@ -15,11 +15,11 @@ namespace RestApiDecomposeNumber.Infrastructure.Data.Repositorys
             this.sqlContext = sqlContext;
         }
 
-        public void Add(T obj)
+        public void Add(TEntity obj)
         {
             try
             {
-                sqlContext.Set<T>().Add(obj);
+                sqlContext.Set<TEntity>().Add(obj);
                 sqlContext.SaveChanges();
             }
             catch (Exception)
@@ -28,21 +28,21 @@ namespace RestApiDecomposeNumber.Infrastructure.Data.Repositorys
             }
         }
 
-        public IEnumerable<T> GetAll()
+        public IEnumerable<TEntity> GetAll()
         {
-            return sqlContext.Set<T>().ToList();
+            return sqlContext.Set<TEntity>().ToList();
         }
 
-        public T GetById(int id)
+        public TEntity GetById(int id)
         {
-            return sqlContext.Set<T>().Find(id);
+            return sqlContext.Set<TEntity>().Find(id);
         }
 
-        public void Remove(T obj)
+        public void Remove(TEntity obj)
         {
             try
             {
-                sqlContext.Set<T>().Remove(obj);
+                sqlContext.Set<TEntity>().Remove(obj);
                 sqlContext.SaveChanges();
             }
             catch (Exception)
@@ -51,7 +51,7 @@ namespace RestApiDecomposeNumber.Infrastructure.Data.Repositorys
             }
         }
 
-        public void Update(T obj)
+        public void Update(TEntity obj)
         {
             try
             {

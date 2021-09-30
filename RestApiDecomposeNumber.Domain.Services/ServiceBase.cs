@@ -4,34 +4,35 @@ using System.Collections.Generic;
 
 namespace RestApiDecomposeNumber.Domain.Services
 {
-    public class ServiceBase<T> : IServiceBase<T> where T : class
+    public class ServiceBase<TEntity> : IServiceBase<TEntity> where TEntity : class
+
     {
-        private readonly IRepositoryBase<T> repository;
-        public ServiceBase(IRepositoryBase<T> repository)
+        private readonly IRepositoryBase<TEntity> repository;
+        public ServiceBase(IRepositoryBase<TEntity> repository)
         {
             this.repository = repository;
         }
-        public void Add(T obj)
+        public void Add(TEntity obj)
         {
             repository.Add(obj);
         }
 
-        public IEnumerable<T> GetAll()
+        public IEnumerable<TEntity> GetAll()
         {
             return repository.GetAll();
         }
 
-        public T GetById(int id)
+        public TEntity GetById(int id)
         {
             return repository.GetById(id);
         }
 
-        public void Remove(T obj)
+        public void Remove(TEntity obj)
         {
             repository.Remove(obj);
         }
 
-        public void Update(T obj)
+        public void Update(TEntity obj)
         {
             repository.Update(obj);
         }

@@ -1,17 +1,262 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\RestApiDecomposeNumber\\RestApiDecomposeNumber.API\\RestApiDecomposeNumber.API.csproj": {}
+    "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.API\\RestApiDecomposeNumber.API.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\RestApiDecomposeNumber\\RestApiDecomposeNumber.API\\RestApiDecomposeNumber.API.csproj": {
+    "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.API\\RestApiDecomposeNumber.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\RestApiDecomposeNumber\\RestApiDecomposeNumber.API\\RestApiDecomposeNumber.API.csproj",
+        "projectUniqueName": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.API\\RestApiDecomposeNumber.API.csproj",
         "projectName": "RestApiDecomposeNumber.API",
-        "projectPath": "C:\\Projects\\RestApiDecomposeNumber\\RestApiDecomposeNumber.API\\RestApiDecomposeNumber.API.csproj",
+        "projectPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.API\\RestApiDecomposeNumber.API.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\RestApiDecomposeNumber\\RestApiDecomposeNumber.API\\obj\\",
+        "outputPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Infrastructure\\RestApiDecomposeNumber.Infrastructure.csproj": {
+                "projectPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Infrastructure\\RestApiDecomposeNumber.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Application\\RestApiDecomposeNumber.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Application\\RestApiDecomposeNumber.Application.csproj",
+        "projectName": "RestApiDecomposeNumber.Application",
+        "projectPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Application\\RestApiDecomposeNumber.Application.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain.Core\\RestApiDecomposeNumber.Domain.Core.csproj": {
+                "projectPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain.Core\\RestApiDecomposeNumber.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain.Core\\RestApiDecomposeNumber.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain.Core\\RestApiDecomposeNumber.Domain.Core.csproj",
+        "projectName": "RestApiDecomposeNumber.Domain.Core",
+        "projectPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain.Core\\RestApiDecomposeNumber.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\RestApiDecomposeNumber.Domain.csproj": {
+                "projectPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\RestApiDecomposeNumber.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain.Services\\RestApiDecomposeNumber.Domain.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain.Services\\RestApiDecomposeNumber.Domain.Services.csproj",
+        "projectName": "RestApiDecomposeNumber.Domain.Services",
+        "projectPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain.Services\\RestApiDecomposeNumber.Domain.Services.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain.Core\\RestApiDecomposeNumber.Domain.Core.csproj": {
+                "projectPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain.Core\\RestApiDecomposeNumber.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\RestApiDecomposeNumber.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\RestApiDecomposeNumber.Domain.csproj",
+        "projectName": "RestApiDecomposeNumber.Domain",
+        "projectPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\RestApiDecomposeNumber.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,10 +284,89 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Infrastructure\\RestApiDecomposeNumber.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Infrastructure\\RestApiDecomposeNumber.Infrastructure.csproj",
+        "projectName": "RestApiDecomposeNumber.Infrastructure",
+        "projectPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Infrastructure\\RestApiDecomposeNumber.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Application\\RestApiDecomposeNumber.Application.csproj": {
+                "projectPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Application\\RestApiDecomposeNumber.Application.csproj"
+              },
+              "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain.Core\\RestApiDecomposeNumber.Domain.Core.csproj": {
+                "projectPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain.Core\\RestApiDecomposeNumber.Domain.Core.csproj"
+              },
+              "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain.Services\\RestApiDecomposeNumber.Domain.Services.csproj": {
+                "projectPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain.Services\\RestApiDecomposeNumber.Domain.Services.csproj"
+              },
+              "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\RestApiDecomposeNumber.Domain.csproj": {
+                "projectPath": "C:\\Project_Decompose_Number\\RestApiDecomposeNumber\\RestApiDecomposeNumber.Domain\\RestApiDecomposeNumber.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
             "Autofac": {
               "target": "Package",
               "version": "[6.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
             }
           },
           "imports": [
@@ -56,9 +380,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

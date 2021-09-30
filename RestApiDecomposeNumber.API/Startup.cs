@@ -1,13 +1,14 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.OpenApi.Models;
+using RestApiDecomposeNumber.Infrastructure.Data;
+using RestApiModeloDDD.Infrastructure.CrossCutting.IOC;
 
 namespace RestApiDecomposeNumber.API
 {
@@ -18,12 +19,27 @@ namespace RestApiDecomposeNumber.API
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
+        public IConfiguration Configuration { get; private set; }
+
+        public ILifetimeScope AutofacContainer { get; private set; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var connection = Configuration["SqlConnection:SqlConnectionString"];
+            services.AddDbContext<SqlContext>(options => options.UseSqlServer(connection));
+            services.AddOptions();
             services.AddRazorPages();
+            services.AddControllers();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Api Decompose Number with DDD", Version = "v1" });
+            });
+        }
+
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            builder.RegisterModule(new ModuleIOC());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,6 +56,13 @@ namespace RestApiDecomposeNumber.API
                 app.UseHsts();
             }
 
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api Decompose Number with DDD");
+            });
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
@@ -51,6 +74,8 @@ namespace RestApiDecomposeNumber.API
             {
                 endpoints.MapRazorPages();
             });
+
+            this.AutofacContainer = app.ApplicationServices.GetAutofacRoot();
         }
     }
 }

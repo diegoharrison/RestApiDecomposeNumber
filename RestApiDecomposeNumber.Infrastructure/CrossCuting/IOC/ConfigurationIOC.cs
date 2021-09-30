@@ -2,17 +2,12 @@
 using AutoMapper;
 using RestApiDecomposeNumber.Application;
 using RestApiDecomposeNumber.Application.Interfaces;
+using RestApiDecomposeNumber.Application.Interfaces.Mappers;
+using RestApiDecomposeNumber.Application.Mappers;
 using RestApiDecomposeNumber.Domain.Core.Interfaces.Repositorys;
 using RestApiDecomposeNumber.Domain.Core.Interfaces.Services;
 using RestApiDecomposeNumber.Domain.Services;
 using RestApiDecomposeNumber.Infrastructure.Data.Repositorys;
-using RestApiModeloDDD.Application;
-using RestApiModeloDDD.Application.Interfaces;
-using RestApiModeloDDD.Application.Mappers;
-using RestApiModeloDDD.Domain.Core.Interfaces.Repositorys;
-using RestApiModeloDDD.Domain.Core.Interfaces.Services;
-using RestApiModeloDDD.Domain.Services;
-using RestApiModeloDDD.Infrastructure.Data.Repositorys;
 
 namespace RestApiModeloDDD.Infrastructure.CrossCutting.IOC
 {
@@ -28,16 +23,8 @@ namespace RestApiModeloDDD.Infrastructure.CrossCutting.IOC
             builder.RegisterType<ServiceNumber>().As<IServiceNumber>();
             builder.RegisterType<RepositoryUser>().As<IRepositoryUser>();
             builder.RegisterType<RepositoryNumber>().As<IRepositoryNumber>();
-            builder.Register(ctx => new MapperConfiguration(cfg =>
-            {
-                cfg.AddProfile(new DtoToModelMappingUser());
-                cfg.AddProfile(new ModelToDtoMappingUser());
-                cfg.AddProfile(new DtoToModelMappingNumber());
-                cfg.AddProfile(new ModelToDtoMappingNumber());
-
-            }));
-
-            builder.Register(ctx => ctx.Resolve<MapperConfiguration>().CreateMapper()).As<IMapper>().InstancePerLifetimeScope();
+            builder.RegisterType<MapperUser>().As<IMapperUser>();
+            builder.RegisterType<MapperNumber>().As<IMapperNumber>();            
         }
 
         #endregion IOC

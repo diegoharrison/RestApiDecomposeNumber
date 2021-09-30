@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace RestApiDecomposeNumber.Domain.Core.Interfaces.Repositorys
 {
-    public interface IRepositoryBase<T> where T : class
+    public interface IRepositoryBase<TEntity> where TEntity : class
     {
-        void Add(T obj);
-        void Update(T obj);
-        void Remove(T obj);
-        IEnumerable<T> GetAll();
-        T GetById(int id);
-    }
+        void Add(TEntity obj);
+        void Update(TEntity obj);
+        void Remove(TEntity obj);
+        IEnumerable<TEntity> GetAll();
+        TEntity GetById(int id);
+    }   
 }
